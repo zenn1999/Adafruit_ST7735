@@ -21,6 +21,7 @@ Please read README.pdf for details
 // #define COMICSANSMS8
 #define HERO10
 #define HERO16
+#define ARIAL6
 
 // Font selection descriptors - Add an entry for each new font and number sequentially
 #define TIMESNR_8	0
@@ -30,6 +31,7 @@ Please read README.pdf for details
 #define GLCDFONT	4
 #define HERO_10		5
 #define HERO_16		6
+#define ARIAL_6		7
 
 #define FONT_START 0
 #define FONT_END 1
@@ -73,6 +75,12 @@ extern const FontDescriptor hero_10ptDescriptors[];
 #ifdef HERO16
 extern const uint8_t hero_16ptBitmaps[];
 extern const FontDescriptor hero_16ptDescriptors[];
+#endif
+
+
+#ifdef ARIAL6
+extern const uint8_t arialnew_6ptBitmaps[];
+extern const FontDescriptor arialnew_6ptDescriptors[];
 #endif
 
 
