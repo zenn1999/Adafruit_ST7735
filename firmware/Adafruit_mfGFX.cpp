@@ -110,6 +110,13 @@ void Adafruit_GFX::setFont(uint8_t f) {
       fontKern = 1;
       break;
 #endif
+#ifdef ARIAL6
+   case ARIAL_6:
+      fontData = arialnew_6ptBitmaps;
+      fontDesc = arialnew_6ptDescriptors;
+      fontKern = 1;
+      break;
+#endif
 	default:
       font = GLCDFONT;
       fontData = glcdfontBitmaps;
