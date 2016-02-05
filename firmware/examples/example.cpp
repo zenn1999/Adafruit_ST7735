@@ -2,7 +2,7 @@
 #define dc   D0
 #define rst  0  
 
-#include "Adafruit_ST7735.h"
+#include "Adafruit_ST7735/Adafruit_ST7735.h"
 
 
 Adafruit_ST7735 tft = Adafruit_ST7735(cs, dc, rst); // hardware spi
