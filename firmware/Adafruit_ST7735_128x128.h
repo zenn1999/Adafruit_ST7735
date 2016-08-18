@@ -16,8 +16,8 @@
   MIT license, all text above must be included in any redistribution
  ****************************************************/
 
-#ifndef _ADAFRUIT_ST7735H_
-#define _ADAFRUIT_ST7735H_
+#ifndef _ADAFRUIT_ST7735_128x128H_
+#define _ADAFRUIT_ST7735H_128x128_
 
 #define SPARK 1 // !!!!!!!!!!! TEMPORARILY !!!!!!!!!
 
