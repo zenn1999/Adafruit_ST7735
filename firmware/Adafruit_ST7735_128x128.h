@@ -17,7 +17,7 @@
  ****************************************************/
 
 #ifndef _ADAFRUIT_ST7735_128x128H_
-#define _ADAFRUIT_ST7735H_128x128_
+#define _ADAFRUIT_ST7735H_128x128H_
 
 #define SPARK 1 // !!!!!!!!!!! TEMPORARILY !!!!!!!!!
 
