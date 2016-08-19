@@ -1,17 +1,17 @@
 #define cs   A2
-#define dc   D0
-#define rst  0  
+#define dc   D6
+#define rst  D2 
 
 #include "Adafruit_ST7735_128x128/Adafruit_ST7735_128x128.h"
 
 
-Adafruit_ST7735 tft = Adafruit_ST7735(cs, dc, rst); // hardware spi
+Adafruit_ST7735 tft = Adafruit_ST7735(cs, dc, 0); // hardware spi no RST
 
 void setup() {
     
     Serial.begin(9600);
 
-    tft.initG();
+    tft.initR(INITR_REDTAB);  //Using INITR_REDTAB for TFT lcd cfaf128x128b on mkii boosterpack from launchpad 
      
     tft.fillScreen(ST7735_BLACK);
 
