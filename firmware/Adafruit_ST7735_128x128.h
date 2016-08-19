@@ -55,7 +55,7 @@ typedef unsigned char prog_uchar;
 
 // some flags for initR() :(
 #define INITR_GREENTAB 0x0
-#define INITR_REDTAB   0x1
+#define INITR_REDTAB   0x1 //Works with CrystalFontz AF128x128b on mkii launchpad booster pack
 #define INITR_BLACKTAB   0x2
 
 #define ST7735_TFTWIDTH  128
